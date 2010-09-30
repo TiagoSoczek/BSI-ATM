@@ -37,17 +37,6 @@
 
 		private void Login_Click(object sender, RoutedEventArgs e)
 		{
-			ATWService2.ILicensingModuleservice service = new ILicensingModuleservice();
-
-			try
-			{
-				string requestLicenseInfo = service.RequestLicenseInfo(new [] {new TLicenca {Id = 123, Observacao = "teste"}});
-			}
-			catch (Exception exception)
-			{
-				Console.WriteLine(exception);
-			}
-
 			frame1.Navigate(new Uri("pages/Login.xaml", UriKind.RelativeOrAbsolute));
 		}
 

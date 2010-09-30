@@ -1,0 +1,9 @@
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Core\bin\Debug\ATM.Core.dll
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Core\bin\Debug\ATM.Core.pdb
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Core\bin\Debug\ATM.Security.dll
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Core\bin\Debug\ATM.Security.pdb
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Core\obj\Debug\ATM.Core.dll
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Core\obj\Debug\ATM.Core.pdb
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Core\bin\Debug\ATM.Domain.dll
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Core\bin\Debug\ATM.Domain.pdb

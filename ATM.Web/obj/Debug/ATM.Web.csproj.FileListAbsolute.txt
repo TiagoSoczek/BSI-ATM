@@ -1,0 +1,5 @@
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Web\bin\ATM.Web.dll
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Web\bin\ATM.Web.pdb
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Web\obj\Debug\ATM.Web.dll
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Web\obj\Debug\ATM.Web.pdb

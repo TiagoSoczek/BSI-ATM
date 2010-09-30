@@ -1,0 +1,12 @@
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Silverlight\Bin\Debug\ATM.Silverlight.dll
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Silverlight\Bin\Debug\ATM.Silverlight.pdb
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Silverlight\Bin\Debug\AppManifest.xaml
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Silverlight\Bin\Debug\ATM.Silverlight.xap
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Silverlight\Bin\Debug\ATM.SilverlightTestPage.html
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Silverlight\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Silverlight\obj\Debug\App.g.i.cs
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Silverlight\obj\Debug\MainPage.g.i.cs
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Silverlight\obj\Debug\ATM.Silverlight.g.resources
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Silverlight\obj\Debug\ATM.Silverlight.dll
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Silverlight\obj\Debug\ATM.Silverlight.pdb
+C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Silverlight\obj\Debug\XapCacheFile.xml

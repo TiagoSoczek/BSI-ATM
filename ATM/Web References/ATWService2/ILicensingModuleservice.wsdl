@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="urn:uATWLicensingModuleIntf" name="ILicensingModuleservice" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xs:schema xmlns="urn:uATWLicensingModuleIntf" targetNamespace="urn:uATWLicensingModuleIntf">
+      <xs:complexType name="ColecaoObjetos">
+        <xs:complexContent mixed="false">
+          <xs:restriction base="soapenc:Array">
+            <xs:sequence />
+            <xs:attribute xmlns:n1="http://schemas.xmlsoap.org/wsdl/" n1:arrayType="ns1:TLicenca[]" ref="soapenc:arrayType" />
+          </xs:restriction>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="TLicenca">
+        <xs:sequence>
+          <xs:element name="Id" type="xs:int" />
+          <xs:element name="Observacao" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </types>
+  <message name="RequestLicenseInfo0Request">
+    <part name="xmlLicense" type="ns1:ColecaoObjetos" />
+  </message>
+  <message name="RequestLicenseInfo0Response">
+    <part name="return" type="xs:string" />
+  </message>
+  <portType name="ILicensingModule">
+    <operation name="RequestLicenseInfo">
+      <input message="tns:RequestLicenseInfo0Request" />
+      <output message="tns:RequestLicenseInfo0Response" />
+    </operation>
+  </portType>
+  <binding name="ILicensingModulebinding" type="tns:ILicensingModule">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <operation name="RequestLicenseInfo">
+      <soap:operation soapAction="urn:uATWLicensingModuleIntf-ILicensingModule#RequestLicenseInfo" style="rpc" />
+      <input message="tns:RequestLicenseInfo0Request">
+        <soap:body use="encoded" namespace="urn:uATWLicensingModuleIntf-ILicensingModule" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output message="tns:RequestLicenseInfo0Response">
+        <soap:body use="encoded" namespace="urn:uATWLicensingModuleIntf-ILicensingModule" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ILicensingModuleservice">
+    <port name="ILicensingModulePort" binding="tns:ILicensingModulebinding">
+      <soap:address location="http://190.1.2.149/AtwWebService/AtwWebService.exe/soap/ILicensingModule" />
+    </port>
+  </service>
+</definitions>

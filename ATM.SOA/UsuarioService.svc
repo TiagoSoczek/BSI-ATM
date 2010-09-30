@@ -1,0 +1,4 @@
+﻿<%@ ServiceHost 
+	Language="C#"
+	Service="ATM.Core.Services.UsuarioService, ATM.Core"
+ %>

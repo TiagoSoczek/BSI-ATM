@@ -1,0 +1,10 @@
+﻿<Page x:Class="ATM.Pages.Usuarios" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="300" d:DesignWidth="300" Title="Usuarios">
+	<Grid>
+		<DataGrid Width="1000" Height="500" AutoGenerateColumns="false" Name="dataGrid1" VerticalAlignment="Top" HorizontalAlignment="Left">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Login" Binding="{Binding Login}"></DataGridTextColumn>
+				<DataGridTextColumn Header="Saldo" Binding="{Binding Saldo, StringFormat={}{0:C}}"></DataGridTextColumn>
+			</DataGrid.Columns>
+		</DataGrid>
+	</Grid>
+</Page>

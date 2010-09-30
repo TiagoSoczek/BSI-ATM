@@ -1,0 +1,34 @@
+﻿<Page x:Class="ATM.Pages.ATM" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" Height="451" Title="ATM" Width="300">
+
+	<Grid>
+		<GroupBox Header="Saque" Margin="12,58,12,0" Height="101" VerticalAlignment="Top">
+			<Grid>
+				<Label Content="Quantia:" Height="28" HorizontalAlignment="Left" Margin="6,6,0,0" Name="label1" VerticalAlignment="Top" />
+				<TextBox Height="23" HorizontalAlignment="Left" Margin="66,8,0,0" Name="txtQuantiaSaque" VerticalAlignment="Top" Width="120" />
+				<Button Content="Efetuar" Height="23" HorizontalAlignment="Left" Margin="195,6,0,0" Name="button1" VerticalAlignment="Top" Width="63" Click="Sacar" />
+				<Label Content="Quantia Cripto:" Height="28" HorizontalAlignment="Left" Margin="6,37,0,0" Name="label2" VerticalAlignment="Top" />
+				<Label Content="" Height="28" HorizontalAlignment="Left" Margin="102,37,0,0" Name="lblQuantiaSaqueCripto" VerticalAlignment="Top" Width="156" />
+			</Grid>
+		</GroupBox>
+		<GroupBox Header="Deposito" Margin="12,165,12,0" Height="93" VerticalAlignment="Top">
+			<Grid>
+				<Label Content="Quantia:" Height="28" HorizontalAlignment="Left" Margin="6,6,0,0" Name="label3" VerticalAlignment="Top" />
+				<TextBox Height="23" HorizontalAlignment="Left" Margin="66,8,0,0" Name="txtQuantiaDeposito" VerticalAlignment="Top" Width="120" />
+				<Button Content="Efetuar" Height="23" HorizontalAlignment="Left" Margin="195,6,0,0" Name="button2" VerticalAlignment="Top" Width="63" Click="Depositar" />
+				<Label Content="Quantia Cripto:" Height="28" HorizontalAlignment="Left" Margin="6,37,0,0" Name="label4" VerticalAlignment="Top" />
+				<Label Content="" Height="28" HorizontalAlignment="Left" Margin="102,37,0,0" Name="lblQuantiaDepositoCripto" VerticalAlignment="Top" Width="156" />
+			</Grid>
+		</GroupBox>
+		<GroupBox Header="Saldo" Margin="12,264,12,0" Height="102" VerticalAlignment="Top">
+			<Grid>
+				<Button Content="Ver Saldo" Height="23" HorizontalAlignment="Left" Margin="6,6,0,0" Name="button3" VerticalAlignment="Top" Width="63" Click="VisualizarSaldo" />
+				<Label Content="Saldo Cripto:" Height="28" HorizontalAlignment="Left" Margin="6,37,0,0" Name="label6" VerticalAlignment="Top" />
+				<Label Content="" Height="28" HorizontalAlignment="Left" Margin="90,37,0,0" Name="lblSaldoCripto" VerticalAlignment="Top" Width="168" />
+				<Label Content="Saldo:" Height="28" HorizontalAlignment="Left" Margin="75,6,0,0" Name="label5" VerticalAlignment="Top" />
+				<Label Content="" Height="28" HorizontalAlignment="Left" Margin="117,6,0,0" Name="lblSaldo" VerticalAlignment="Top" Width="141" />
+			</Grid>
+		</GroupBox>
+		<Label Height="40" HorizontalAlignment="Left" Margin="12,12,0,0" Name="lblUsuario" VerticalAlignment="Top" Width="276" FontSize="26" FontWeight="Bold" />
+		<Button Content="Sair" Height="23" HorizontalAlignment="Left" Margin="207,391,0,0" Name="button4" VerticalAlignment="Top" Width="75" Click="Sair_Click" />
+	</Grid>
+</Page>

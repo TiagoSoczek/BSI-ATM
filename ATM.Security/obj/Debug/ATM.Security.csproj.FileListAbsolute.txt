@@ -1,0 +1,5 @@
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Security\bin\Debug\ATM.Security.dll
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Security\bin\Debug\ATM.Security.pdb
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Security\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Security\obj\Debug\ATM.Security.dll
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Security\obj\Debug\ATM.Security.pdb

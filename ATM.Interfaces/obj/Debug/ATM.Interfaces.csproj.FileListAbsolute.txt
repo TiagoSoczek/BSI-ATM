@@ -1,0 +1,5 @@
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Interfaces\bin\Debug\ATM.Interfaces.dll
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Interfaces\bin\Debug\ATM.Interfaces.pdb
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Interfaces\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Interfaces\obj\Debug\ATM.Interfaces.dll
+C:\Users\tiago.soczek\documents\visual studio 2010\Projects\ATM\ATM.Interfaces\obj\Debug\ATM.Interfaces.pdb

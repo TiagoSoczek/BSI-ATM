@@ -1,5 +1,0 @@
-﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="ATM.Silverlight" EntryPointType="ATM.Silverlight.App" RuntimeVersion="4.0.50401.0">
-  <Deployment.Parts>
-    <AssemblyPart x:Name="ATM.Silverlight" Source="ATM.Silverlight.dll" />
-  </Deployment.Parts>
-</Deployment>

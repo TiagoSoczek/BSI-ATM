@@ -1,5 +1,0 @@
-C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Domain\Bin\Debug\ATM.Domain.dll
-C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Domain\Bin\Debug\ATM.Domain.pdb
-C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Domain\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Domain\obj\Debug\ATM.Domain.dll
-C:\Users\tiago.soczek\Documents\Visual Studio 2010\Projects\ATM\ATM.Domain\obj\Debug\ATM.Domain.pdb
